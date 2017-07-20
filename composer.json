@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Member\\": "src",
+            "MemberTest\\": "tests\\src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "doctrine/cache": "^1.6",
+        "phpseclib/phpseclib": "^2.0",
+        "pimple/pimple": "^3.1",
+        "besimple/soap-client": "^0.2.6",
+        "doctrine/annotations": "^1.4"
+    }
+}
